@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.buttonProses)
     public void doProcess() {
+
         tvHasil.setText("Nama Anda : " + etNama.getText());
     }
 }
